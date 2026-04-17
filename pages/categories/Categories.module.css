@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+}
+
+.categoryCard {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.categoryCard:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.categoryTitle {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.categoryDescription {
+    font-size: 1em;
+    margin-top: 10px;
+    opacity: 0.8;
+}
